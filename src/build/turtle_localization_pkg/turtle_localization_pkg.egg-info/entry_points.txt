@@ -1,0 +1,11 @@
+[console_scripts]
+d1_publisher_with_noise = turtle_localization_pkg.d1_publisher:main
+d2_publisher_with_noise = turtle_localization_pkg.d2_publisher:main
+d3_publisher_with_noise = turtle_localization_pkg.d3_publisher:main
+d4_publisher_with_noise = turtle_localization_pkg.d4_publisher:main
+d5_publisher_with_noise = turtle_localization_pkg.d5_publisher:main
+d6_publisher_with_noise = turtle_localization_pkg.d6_publisher:main
+robot_position = turtle_localization_pkg.robot_position:main
+robot_position_filtered = turtle_localization_pkg.robot_position_filtered:main
+robot_position_noise = turtle_localization_pkg.robot_position_noise:main
+

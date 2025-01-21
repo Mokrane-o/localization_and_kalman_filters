@@ -1,0 +1,23 @@
+running develop
+running egg_info
+writing turtle_localization_pkg.egg-info/PKG-INFO
+writing dependency_links to turtle_localization_pkg.egg-info/dependency_links.txt
+writing entry points to turtle_localization_pkg.egg-info/entry_points.txt
+writing requirements to turtle_localization_pkg.egg-info/requires.txt
+writing top-level names to turtle_localization_pkg.egg-info/top_level.txt
+reading manifest file 'turtle_localization_pkg.egg-info/SOURCES.txt'
+writing manifest file 'turtle_localization_pkg.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/ros2/localization_ws/src/install/turtle_localization_pkg/lib/python3.10/site-packages/turtle-localization-pkg.egg-link (link to .)
+Installing d1_publisher_with_noise script to /home/ros2/localization_ws/src/install/turtle_localization_pkg/lib/turtle_localization_pkg
+Installing d2_publisher_with_noise script to /home/ros2/localization_ws/src/install/turtle_localization_pkg/lib/turtle_localization_pkg
+Installing d3_publisher_with_noise script to /home/ros2/localization_ws/src/install/turtle_localization_pkg/lib/turtle_localization_pkg
+Installing d4_publisher_with_noise script to /home/ros2/localization_ws/src/install/turtle_localization_pkg/lib/turtle_localization_pkg
+Installing d5_publisher_with_noise script to /home/ros2/localization_ws/src/install/turtle_localization_pkg/lib/turtle_localization_pkg
+Installing d6_publisher_with_noise script to /home/ros2/localization_ws/src/install/turtle_localization_pkg/lib/turtle_localization_pkg
+Installing robot_position script to /home/ros2/localization_ws/src/install/turtle_localization_pkg/lib/turtle_localization_pkg
+Installing robot_position_filtered script to /home/ros2/localization_ws/src/install/turtle_localization_pkg/lib/turtle_localization_pkg
+Installing robot_position_noise script to /home/ros2/localization_ws/src/install/turtle_localization_pkg/lib/turtle_localization_pkg
+
+Installed /home/ros2/localization_ws/src/build/turtle_localization_pkg
+running symlink_data

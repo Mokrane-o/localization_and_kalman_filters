@@ -1,0 +1,12 @@
+[console_scripts]
+circle_motion = turtle_localization_pkg.circle_motion:main
+d1_publisher_with_noise = turtle_localization_pkg.d1_publisher:main
+d2_publisher_with_noise = turtle_localization_pkg.d2_publisher:main
+d3_publisher_with_noise = turtle_localization_pkg.d3_publisher:main
+d4_publisher_with_noise = turtle_localization_pkg.d4_publisher:main
+d5_publisher_with_noise = turtle_localization_pkg.d5_publisher:main
+d6_publisher_with_noise = turtle_localization_pkg.d6_publisher:main
+robot_position_noise = turtle_localization_pkg.robot_position_noise:main
+robot_position_std_kf = turtle_localization_pkg.robot_position_std_kf:main
+robot_position_ukf = turtle_localization_pkg.robot_position_ukf:main
+

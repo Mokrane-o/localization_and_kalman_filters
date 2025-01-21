@@ -1,0 +1,25 @@
+[0.364s] Invoking command in '/home/ros2/localization_ws/src/build/turtle_localization_pkg': PYTHONPATH=/home/ros2/localization_ws/src/build/turtle_localization_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros2/localization_ws/src/install/turtle_localization_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ros2/localization_ws/src/build/turtle_localization_pkg/build --no-deps symlink_data
+[0.510s] running develop
+[0.600s] running egg_info
+[0.600s] writing turtle_localization_pkg.egg-info/PKG-INFO
+[0.600s] writing dependency_links to turtle_localization_pkg.egg-info/dependency_links.txt
+[0.600s] writing entry points to turtle_localization_pkg.egg-info/entry_points.txt
+[0.600s] writing requirements to turtle_localization_pkg.egg-info/requires.txt
+[0.600s] writing top-level names to turtle_localization_pkg.egg-info/top_level.txt
+[0.601s] reading manifest file 'turtle_localization_pkg.egg-info/SOURCES.txt'
+[0.602s] writing manifest file 'turtle_localization_pkg.egg-info/SOURCES.txt'
+[0.602s] running build_ext
+[0.602s] Creating /home/ros2/localization_ws/src/install/turtle_localization_pkg/lib/python3.10/site-packages/turtle-localization-pkg.egg-link (link to .)
+[0.603s] Installing d1_publisher_with_noise script to /home/ros2/localization_ws/src/install/turtle_localization_pkg/lib/turtle_localization_pkg
+[0.603s] Installing d2_publisher_with_noise script to /home/ros2/localization_ws/src/install/turtle_localization_pkg/lib/turtle_localization_pkg
+[0.603s] Installing d3_publisher_with_noise script to /home/ros2/localization_ws/src/install/turtle_localization_pkg/lib/turtle_localization_pkg
+[0.603s] Installing d4_publisher_with_noise script to /home/ros2/localization_ws/src/install/turtle_localization_pkg/lib/turtle_localization_pkg
+[0.603s] Installing d5_publisher_with_noise script to /home/ros2/localization_ws/src/install/turtle_localization_pkg/lib/turtle_localization_pkg
+[0.603s] Installing d6_publisher_with_noise script to /home/ros2/localization_ws/src/install/turtle_localization_pkg/lib/turtle_localization_pkg
+[0.603s] Installing robot_position script to /home/ros2/localization_ws/src/install/turtle_localization_pkg/lib/turtle_localization_pkg
+[0.603s] Installing robot_position_filtered script to /home/ros2/localization_ws/src/install/turtle_localization_pkg/lib/turtle_localization_pkg
+[0.604s] Installing robot_position_noise script to /home/ros2/localization_ws/src/install/turtle_localization_pkg/lib/turtle_localization_pkg
+[0.604s] 
+[0.604s] Installed /home/ros2/localization_ws/src/build/turtle_localization_pkg
+[0.604s] running symlink_data
+[0.621s] Invoked command in '/home/ros2/localization_ws/src/build/turtle_localization_pkg' returned '0': PYTHONPATH=/home/ros2/localization_ws/src/build/turtle_localization_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros2/localization_ws/src/install/turtle_localization_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ros2/localization_ws/src/build/turtle_localization_pkg/build --no-deps symlink_data
