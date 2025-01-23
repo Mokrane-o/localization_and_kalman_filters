@@ -28,12 +28,6 @@ def generate_launch_description():
         ]
     )
 
-    # PlotJuggler Node
-    plotjuggler_node = Node(
-    package='plotjuggler',
-    executable='plotjuggler',
-    name='plotjuggler'
-)
 
     # Robot Position Node
     robot_position_ukf_node = Node(
@@ -181,7 +175,5 @@ def generate_launch_description():
     ld.add_action(d6_publisher_node)
     ld.add_action(cirle_motion_node)
     ld.add_action(turtlesim_node)
-    ld.add_action(plotjuggler_node)
-
     return ld
 
