@@ -11,6 +11,13 @@ def generate_launch_description():
     noise_variance = {'noise_variance': 0.2}
     timing = {'timing': 1/frequency}
 
+      # Turtlesim Node
+    turtlesim_node = Node(
+        package='turtlesim',
+        executable='turtlesim_node',
+        name='turtlesim'
+    )
+
     # Robot Position Node
     cirle_motion_node = Node(
         package='turtle_localization_pkg',
@@ -20,6 +27,13 @@ def generate_launch_description():
             timing
         ]
     )
+
+    # PlotJuggler Node
+    plotjuggler_node = Node(
+    package='plotjuggler',
+    executable='plotjuggler',
+    name='plotjuggler'
+)
 
     # Robot Position Node
     robot_position_ukf_node = Node(
@@ -166,6 +180,8 @@ def generate_launch_description():
     ld.add_action(d5_publisher_node)
     ld.add_action(d6_publisher_node)
     ld.add_action(cirle_motion_node)
+    ld.add_action(turtlesim_node)
+    ld.add_action(plotjuggler_node)
 
     return ld
 
