@@ -9,7 +9,7 @@ def generate_launch_description():
     frequency = 200 #Hz
     noise_mean = {'noise_mean': 0.0}
     noise_variance = {'noise_variance': 0.2}
-    timing = {'timing': 1/frequency} # The time used for the publishing rate and the kalman filters
+    timing = {'timing': 1/frequency} # The time used for the publishing rate and kalman filters
 
       # Turtlesim Node
     turtlesim_node = Node(
